@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: tomcat
-        image: 811636332895.dkr.ecr.ap-southeast-1.amazonaws.com/tomcat
+        image: 811636332895.dkr.ecr.ap-southeast-1.amazonaws.com/alpine:latest
         ports:
-         - containerPort: 8090
+        - containerPort: 8090
 
